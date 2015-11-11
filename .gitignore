@@ -1,0 +1,32 @@
+# Riadh MNASRI .gitignore file #
+
+#  Directories #
+/build/
+/bin/
+target/
+logs/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.db
+
+######################
+# OS X
+######################
+.DS_Store
+
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# IntelliJ IDEA
+######################
+.idea/
+*.iml
+
